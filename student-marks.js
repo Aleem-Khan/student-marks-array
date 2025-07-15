@@ -1,11 +1,5 @@
-let marks = [85,97,44,37,76,60];
+let companies = [ "Bloomberg", "Microsoft","Google", "Apple", "IBM"]
 
-let sum=0;
-
-for ( let val of marks)
-{
-    sum += val;
-}
-
-let avg= sum/marks.length;
-console.log('avg marks of the class =', $,{avg})
+companies.shift();
+companies.slice(2,1,"ola");
+companies.push("Amazon");
